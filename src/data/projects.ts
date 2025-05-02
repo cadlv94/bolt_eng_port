@@ -73,33 +73,40 @@ export const projects = [
     ]
   },
   {
-    title: "Medical Imaging Analysis",
-    slug: "medical-imaging",
-    description: "Deep learning algorithm for medical image segmentation.",
-    image: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&w=800",
+    title: "Engineering Portfolio Website",
+    subtitle: "Developed using React, Vite, and GitHub Pages | Deployed in 2025",
+    teamLead: "Carlos Alvarez",
+    slug: "portfolio-site",
+    description: "A fully responsive, single-page portfolio site built from scratch using Vite + React, showcasing engineering projects with routing, animation, and GitHub-based deployment.",
+    image: "/bolt_eng_port/images/portfolio-preview.png",
     images: [
-      "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&w=800",
-      "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=800",
-      "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=800"
+      "/bolt_eng_port/images/portfolio-preview.png",
+      "/bolt_eng_port/images/portfolio-github.png",
+      "/bolt_eng_port/images/portfolio-vite-structure.png"
     ],
     fullDescription: [
-      "This project focuses on developing advanced deep learning algorithms for medical image segmentation, aimed at improving diagnostic accuracy and efficiency in healthcare settings.",
-      "The system utilizes state-of-the-art neural networks to automatically identify and segment different anatomical structures in medical images, providing healthcare professionals with powerful tools for diagnosis and treatment planning."
+      "This portfolio website was developed using **React** and **Vite**, a modern front-end tooling setup that allows fast development and optimized production builds.",
+      "I used **TypeScript**, **Tailwind CSS**, and component-based design to build modular pages for projects, skills, and certifications. The routing is handled using **React Router**, enabling a seamless single-page application (SPA) experience.",
+      "Deployment is managed via **GitHub Pages** using the `gh-pages` package, and asset paths were configured carefully to accommodate GitHub’s static file hosting rules. Images and metadata are managed using a structured JSON-like dataset, and Framer Motion was used for animated transitions.",
+      "The project emphasizes web deployment, responsive design, and real-world Git integration — demonstrating not only design skill, but full-stack delivery from local build to production deployment."
     ],
     features: [
-      "Automated image segmentation",
-      "Multi-modality support (MRI, CT, X-ray)",
-      "Real-time processing capabilities",
-      "High accuracy and reliability",
-      "Integration with existing PACS systems"
+      "Single Page Application (SPA) with React Router",
+      "Animated page transitions using Framer Motion",
+      "Custom project routing with slug-based URLs",
+      "Mobile-first responsive design",
+      "Dynamic content rendering from a centralized data file",
+      "Live deployment via GitHub Pages using gh-pages CLI",
+      "Image handling with GitHub Pages-compatible path resolution"
     ],
     technologies: [
-      "Deep Learning",
-      "Python",
-      "TensorFlow",
-      "CUDA",
-      "Medical imaging protocols",
-      "Cloud computing"
+      "React",
+      "TypeScript",
+      "Vite",
+      "Tailwind CSS",
+      "Framer Motion",
+      "Git & GitHub",
+      "GitHub Pages",
     ]
   }
 ];
