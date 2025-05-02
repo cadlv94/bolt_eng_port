@@ -29,7 +29,7 @@ function App() {
       <header className="relative h-[800px] overflow-hidden">
         <div className="absolute inset-0">
           <img 
-            src="/images/Sen_Des_Pic.jpg" 
+            src="/bolt_eng_port/images/Sen_Des_Pic.jpg" 
             alt="Carlos Alvarez"
             className="w-full h-full object-cover"
           />
@@ -39,7 +39,7 @@ function App() {
           <div className="flex items-center gap-8">
             <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-white shadow-xl flex-shrink-0">
               <img 
-                src="/images/Alvarez_Carlos_profile.jpg" 
+                src="/bolt_eng_port/images/Alvarez_Carlos_profile.jpg" 
                 alt="Carlos Alvarez"
                 className="w-full h-full object-contain scale-100"
               />

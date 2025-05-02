@@ -5,14 +5,15 @@ export const projects = [
     teamLead: "Carlos Alvarez",
     slug: "crx-pen",
     description: "",
-    image: "/images/C-Rx Exec Sum.jpg",
+    image: "/bolt_eng_port/images/C-Rx Exec Sum.jpg",
+
     images: [
-      "/images/crx-pen.png",
-      "/images/C-Rx Assem 1.png",
-      "/images/C-Rx Assem 2.png", 
-      "/images/C-Rx Assembly Render.png",
-      "/images/CTRx Pen Pic.jpg", 
-      "/images/Sen Des Poster.jpg"
+      "/bolt_eng_port/images/crx-pen.png",
+      "/bolt_eng_port/images/C-Rx Assem 1.png",
+      "/bolt_eng_port/images/C-Rx Assem 2.png", 
+      "/bolt_eng_port/images/C-Rx Assembly Render.png",
+      "/bolt_eng_port/images/CTRx Pen Pic.jpg", 
+      "/bolt_eng_port/images/Sen Des Poster.jpg"
     ],
     fullDescription: [
       "The **C-RX Pen Injector** is a patient-centric drug delivery device designed for use in compounding pharmacies. It supports **borosilicate glass cartridges** and delivers precise 0.1 mL dosing, improving accessibility for patients with dexterity or vision issues. Unlike traditional vial-and-syringe setups, this pen injector simplifies administration, enhances safety, and reduces medical waste by over 95%.",
@@ -46,9 +47,9 @@ export const projects = [
     title: "IUSD-Rx",
     slug: "iusd-rx",
     description: "Intra-Urethral suppository device for erectile dysfunction treatments.",
-    image: "/images/iusd-rx.jpg",
+    image: "/bolt_eng_port/images/iusd-rx.jpg",
     images: [
-      "/images/iusd-rx.jpg",
+      "/bolt_eng_port/images/iusd-rx.jpg",
       "https://images.unsplash.com/photo-1579684288538-c76a2fab9c19?auto=format&fit=crop&w=800",
       "https://images.unsplash.com/photo-1579684453377-8f8c0e9f2d3c?auto=format&fit=crop&w=800"
     ],
